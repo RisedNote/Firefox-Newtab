@@ -25,7 +25,7 @@ then copy **config-prefs.js** to:
 `sudo cp friefoxScripts/config-prefs.js /usr/lib/firefox/browser/defaults/preferences/`
 
 #### Windows:
-just put both contents in **config-prefs.js** and **defaults** in `C:\Program Files\Mozilla Firefox`
+just put both contents ( **config-prefs.js** and **defaults** ) in: `C:\Program Files\Mozilla Firefox`
 
 #### MacOS:
 the **config-prefs.js** goes here:
@@ -36,4 +36,20 @@ and **config.js** goes here:
 
 `Firefox.app/Contents/Resources/defaults/pref/config-prefs.js`
 
-3. 
+3. now in the url bar type **about:support**
+
+  look for **Profile Directory** or **Profile Folder** and click on the **open** button right next it
+
+  in here create a folder called **chrome**
+
+  Now insert the **utils** folder AND **newtab-aboutconfig.uc.js** in the **chrome** folder you just made
+  
+4. now go back to the **about:support**
+  
+  click on the top right box where it says **Clear startup cache...** this will restart firefox
+
+5. now type **about:config** in the url and this may warn you just click continue
+
+  now search for **browser.newtab.url** and here you can enter your local file path
+
+  ![screenshot on newtab option](.screenshots/localfileNewtab.png)
