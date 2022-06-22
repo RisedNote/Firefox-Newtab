@@ -58,11 +58,15 @@ and **config.js** goes here:
 
   now search for **browser.newtab.url** and here you can enter your local file path
 
-  ![screenshot on newtab option](.screenshots/localfileNewtab.png)
+  ![screenshot on newtab option](.screenshots/localfileCheck.png)
+
   *dont mind my drawing*
   
 6. clean up
   now just move the **newtabPage** folder in a good place so you can link it the **browser.newtab.url**
+
+  now you can remove Firefox-Newtab
+  `rm -rf Firefox-Newtab`
 
 ## These are not my scripts
 I got them from xiaoxiaoflood at ( https://github.com/xiaoxiaoflood/firefox-scripts )
