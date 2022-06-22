@@ -40,9 +40,13 @@ and **config.js** goes here:
 
   look for **Profile Directory** or **Profile Folder** and click on the **open** button right next it
 
+  ![click open screenshot](.screenshots/open.png)
+
   in here create a folder called **chrome**
 
   Now insert the **utils** folder AND **newtab-aboutconfig.uc.js** in the **chrome** folder you just made
+
+  ![move into chorme screenshot](.screenshots/inChrome.png)
   
 4. now go back to the **about:support**
   
@@ -53,3 +57,12 @@ and **config.js** goes here:
   now search for **browser.newtab.url** and here you can enter your local file path
 
   ![screenshot on newtab option](.screenshots/localfileNewtab.png)
+  *dont mind my drawing*
+  
+6. clean up
+  now just move the **newtabPage** folder in a good place so you can link it the **browser.newtab.url**
+
+## These are not my scripts
+I got them from xiaoxiaoflood at ( https://github.com/xiaoxiaoflood/firefox-scripts )
+
+there is more you can do so you should check it out
