@@ -16,11 +16,11 @@ With this option abavialble you can add your own local html file as a new tab
 > firefox can be installed in a different location but this is the default :arrow_down:
 
 #### Linux:
-copy **defaults/pref/config.js** to:
+copy **defaults/pref/config.js** to **/usr/lib/firefox/**:
 
 `sudo cp firefoxScripts/defaults/pref/config.js /usr/lib/firefox/`
 
-then copy **config-prefs.js** to:
+then copy **config-prefs.js** to **/usr/lib/firefox/browser/defaults/preferences/**:
 
 `sudo cp friefoxScripts/config-prefs.js /usr/lib/firefox/browser/defaults/preferences/`
 
@@ -46,7 +46,7 @@ and **config.js** goes here:
 
   Now insert the **utils** folder AND **newtab-aboutconfig.uc.js** in the **chrome** folder you just made
 
-  ![move into chorme screenshot](.screenshots/inChrome.png)
+  ![move into chorme screenshot](.screenshots/intheChrome.png)
   
 4. now go back to the **about:support**
   
