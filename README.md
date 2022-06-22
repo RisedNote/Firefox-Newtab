@@ -6,11 +6,9 @@ With this option abavialble you can add your own local html file as a new tab
 ### Instructions
 1. download repo:
 
-- `git clone https://github.com/RisedNote/Firefox-Newtab`
-
   this should create a directory called FireFox-Newtab:
 
-- `cd FireFox-Newtab`
+- `git clone https://github.com/RisedNote/Firefox-Newtab && cd Firefox-Newtab`
 
 2. now you need to put the contents of **firefoxScripts** in thier proper paths
 > firefox can be installed in a different location but this is the default :arrow_down:
@@ -65,8 +63,8 @@ and **config.js** goes here:
 6. clean up
   now just move the **newtabPage** folder in a good place so you can link it the **browser.newtab.url**
 
-  now you can remove Firefox-Newtab
-  `rm -rf Firefox-Newtab`
+  now you can remove Firefox-Newtab folder
+  `cd .. && rm -rf Firefox-Newtab`
 
 ## These are not my scripts
 I got them from xiaoxiaoflood at ( https://github.com/xiaoxiaoflood/firefox-scripts )
