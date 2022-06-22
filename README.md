@@ -52,6 +52,8 @@ and **config.js** goes here:
   
   click on the top right box where it says **Clear startup cache...** this will restart firefox
 
+  ![restart firefox screenshot](.screenshots/restartFirefox.png)
+
 5. now type **about:config** in the url and this may warn you just click continue
 
   now search for **browser.newtab.url** and here you can enter your local file path
