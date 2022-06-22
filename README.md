@@ -1,7 +1,9 @@
 # Firefox-Newtab
+<!--
 *this video at {this time} (link) is the insrtuctions*
 This can restore the option **browser.newtab.url** in the **about:config**.
 With this option abavialble you can add your own local html file as a new tab
+-->
 
 ### Instructions
 1. download repo:
@@ -10,7 +12,7 @@ With this option abavialble you can add your own local html file as a new tab
 
 - `git clone https://github.com/RisedNote/Firefox-Newtab && cd Firefox-Newtab`
 
-2. now you need to put the contents of **firefoxScripts** in thier proper paths
+2. now you need to put the contents of **firefoxScripts** in their proper paths
 
 [^1]: firefox can be installed in a different location but this is the default :arrow_down:
 
