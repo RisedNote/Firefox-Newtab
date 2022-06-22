@@ -11,7 +11,8 @@ With this option abavialble you can add your own local html file as a new tab
 - `git clone https://github.com/RisedNote/Firefox-Newtab && cd Firefox-Newtab`
 
 2. now you need to put the contents of **firefoxScripts** in thier proper paths
-> firefox can be installed in a different location but this is the default :arrow_down:
+
+[^1]: firefox can be installed in a different location but this is the default :arrow_down:
 
 #### Linux:
 copy `defaults/pref/config.js` to `/usr/lib/firefox/`:
@@ -45,6 +46,8 @@ and **config.js** goes here:
   Now insert the **utils** folder AND **newtab-aboutconfig.uc.js** in the **chrome** folder you just made
 
   ![move into chorme screenshot](.screenshots/intheChrome.png)
+
+  *dont mind my drawing*
   
 4. now go back to the **about:support**
   
@@ -57,15 +60,16 @@ and **config.js** goes here:
   now search for **browser.newtab.url** and here you can enter your local file path
 
   ![screenshot on newtab option](.screenshots/localfileCheck.png)
-
-  *dont mind my drawing*
   
-6. clean up
-  now just move the **newtabPage** folder in a good place so you can link it the **browser.newtab.url**
+6. cleaning up
 
-  now you can remove Firefox-Newtab folder
-  `cd .. && rm -rf Firefox-Newtab`
+  now just move the **newtabPage** folder in a good place so you can link it to **browser.newtab.url**
 
+  remove Firefox-Newtab folder: `cd .. && rm -rf Firefox-Newtab`
+
+### The HTML file is based off of molecule47
+this is the repo ( https://github.com/molecule47/idyllic-firefox ) where I got it from so thanks to them
+ 
 ## These are not my scripts
 I got them from xiaoxiaoflood at ( https://github.com/xiaoxiaoflood/firefox-scripts )
 
