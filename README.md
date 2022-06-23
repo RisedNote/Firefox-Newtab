@@ -59,7 +59,7 @@ and **config.js** goes here:
 
 5. now type **about:config** in the url and this may warn you just click continue
 
-  now search for **browser.newtab.url** and here you can enter your local file path
+  now search for **browser.newtab.url** and here you can enter your local file path *make sure you have **file://** before your absolute path*
 
   ![screenshot on newtab option](.screenshots/localfileCheck.png)
   
