@@ -69,10 +69,14 @@ and **firefoxScripts/defaults/pref/config.js** goes here:
 
   remove Firefox-Newtab folder: `cd .. && rm -rf Firefox-Newtab`
 
+---
+
 ### The HTML file is based off of molecule47
 this is the repo ( https://github.com/molecule47/idyllic-firefox ) where I got the html from, so thanks to them
+
+---
  
-## These are not my scripts
+### These are not my scripts
 I got the scripts from xiaoxiaoflood at ( https://github.com/xiaoxiaoflood/firefox-scripts )
 
 this repo gives you more modifications with firefox so check it out
