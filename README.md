@@ -1,9 +1,7 @@
 # Firefox-Newtab
-<!--
-*this video at {this time} (link) is the insrtuctions*
+*this video at (  ) 3:58 is the insrtuctions*
 This can restore the option **browser.newtab.url** in the **about:config**.
 With this option abavialble you can add your own local html file as a new tab
--->
 
 ### Instructions
 1. download repo:
