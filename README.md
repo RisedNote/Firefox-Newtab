@@ -1,5 +1,5 @@
 # Firefox-Newtab
-*this video at (  ) 3:58 is the insrtuctions*
+*this video at ( https://www.youtube.com/watch?v=kf0RoPN-REo&t=243s ) 3:58 is the insrtuctions*
 This can restore the option **browser.newtab.url** in the **about:config**.
 With this option abavialble you can add your own local html file as a new tab
 
@@ -24,7 +24,9 @@ then copy `config-prefs.js` to `/usr/lib/firefox/browser/defaults/preferences/`:
 - `cp friefoxScripts/config-prefs.js /usr/lib/firefox/browser/defaults/preferences/`
 
 #### Windows:
-just put both contents ( **firefoxScripts/config-prefs.js** and **firefoxScripts/defaults** ) in: `C:\Program Files\Mozilla Firefox`
+just put both contents ( **firefoxScripts/config-prefs.js** and **firefoxScripts/defaults** ) in:
+
+`C:\Program Files\Mozilla Firefox`
 
 #### MacOS:
 the **firefoxScripts/config-prefs.js** goes here:
@@ -71,6 +73,10 @@ and **firefoxScripts/defaults/pref/config.js** goes here:
 
 ### The HTML file is based off of molecule47
 this is the repo ( https://github.com/molecule47/idyllic-firefox ) where I got the html from, so thanks to them
+
+the image I used for my html file is by "Samma van Klaarbergen":
+
+https://www.artstation.com/artwork/PeB19L
 
 ---
  
