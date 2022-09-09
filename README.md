@@ -21,7 +21,7 @@ copy `firefoxScripts/defaults/pref/config.js` to `/usr/lib/firefox/`:
 
 then copy `config-prefs.js` to `/usr/lib/firefox/browser/defaults/preferences/`:
 
-- `cp friefoxScripts/config-prefs.js /usr/lib/firefox/browser/defaults/preferences/`
+- `cp firefoxScripts/config-prefs.js /usr/lib/firefox/browser/defaults/preferences/`
 
 #### Windows:
 just put both contents ( **firefoxScripts/config-prefs.js** and **firefoxScripts/defaults** ) in:
